@@ -1,0 +1,360 @@
+* { text-decoration: none; margin: 0; padding: 0; outline: none; box-shadow: none; box-sizing: border-box !important; -webkit-box-sizing: border-box !important; -moz-
+
+box-sizing: border-box !important; -ms-box-sizing: border-box !important; }
+	body { font-family: Arial; font-size: 12px; color: #263240; padding: 0px; }
+	.left { float: left; }
+	.right { float: right; }
+	.clear { clear: both; }
+
+	
+	a { color: #666; }
+	a:hover { color: #333 }
+	
+	div#credit-card
+	{
+		display: table;
+		width: 540px;
+		margin: 0 auto;
+		
+		border: 1px solid #c1c2c8;
+		background-color: #eeeeee;
+		-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px 4px;
+	}
+	
+	div#credit-card > header
+	{
+	border: 1px solid #f2e3d2;
+   background: #074232;
+   background: -webkit-gradient(linear, left top, left bottom, from(#007d77), to(#074232));
+   background: -webkit-linear-gradient(top, #007d77, #074232);
+   background: -moz-linear-gradient(top, #007d77, #074232);
+   background: -ms-linear-gradient(top, #007d77, #074232);
+   background: -o-linear-gradient(top, #007d77, #074232);
+   background-image: -ms-linear-gradient(top, #007d77 0%, #074232 100%);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:600px;
+   margin-left:0px;
+   }
+	
+	div#credit-card > header .title
+	{ 
+        
+		color: #666;
+		font-size: 13px;
+		padding: 15px 0;
+     
+		padding-left: 100px;
+		background: no-repeat 20px;
+		
+		line-height: 32px;
+	}
+	div#credit-card > header .close
+	{
+		display: table;
+		float: right;
+
+	}
+	
+	div#credit-card > header .close:hover
+	{
+		display: table;
+		float: right;
+		opacity: 1;
+	}
+	
+	div#credit-card > header .title strong
+	{
+		color: #333;
+	}
+	
+	div#credit-card > section#content
+	{
+		padding: 30px;
+	}
+	
+	div#credit-card > section#content .table
+	{
+		display: table;
+		width: 100%;
+	}
+	
+	div#credit-card > section#content .table > .row
+	{
+		display: table-row;
+		width: 100%;
+	}	
+	
+	div#credit-card > section#content .table > .row > div
+	{
+		display: table-cell;
+		padding-top: 15px;
+	}
+	
+	div#credit-card > section#content .table > .row > div.label
+	{
+		min-width: 100px;
+		width: 120px;
+	}	
+	
+	div#credit-card > section#content .form-fields .label
+	{
+		color: "#FFFFFF" ;
+		font-weight: bold;
+		font-size: 14px;
+	}	
+	
+	div#credit-card > section#content .form-fields .input
+	{
+		padding-left: 10px;
+		width: 100%;
+		color: #666;
+		font-weight: bold;
+		position: relative;
+	}		
+	
+	div#credit-card > section#content .form-fields .valid
+	{
+		width: 32px;
+		text-align: left;
+		padding-left: 10px;
+		
+		vertical-align: top;
+	}	
+	
+	div#credit-card > section#content .form-fields .valid img
+	{
+		display: block;
+		margin-top: 2px;
+	}
+	
+	div#credit-card > section#content .form-fields .full input, div#credit-card > section#content .form-fields .full select
+	{
+		width: 100%;
+		padding: 10px;
+	}
+	
+	div#credit-card > section#content .form-fields input, div#credit-card > section#content .form-fields select
+	{
+		background-color: #f7f7f7;
+		border: 1px solid #d4d4d4;
+		color: #717171;
+		cursor: pointer;
+		-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px 5px;
+		
+		-moz-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2);
+	}
+	
+	div#credit-card > section#content .form-fields input:hover, div#credit-card > section#content .form-fields select:hover
+	{
+		-moz-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.4);
+		-webkit-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.4);
+	}
+	
+	div#credit-card > section#content .form-fields .size50 input,div#credit-card > section#content .form-fields .size50 select
+	{
+		display: inline;
+		padding-left: 10px;
+		width: 47%;
+		padding: 10px;
+		cursor: pointer;
+		-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px 5px;
+	}
+	
+	div#credit-card > section#content .form-fields .size50 input:not(:only-child)
+	{
+		margin-right: 19px;
+	}
+	
+	div#credit-card > section#content .form-fields .size50 input:last-child
+	{
+		margin-right: 0;
+	}
+	
+	div#credit-card > section#content .form-fields .size50 input:only-child
+	{
+		margin-right: 5px;
+	}
+	
+	div#credit-card > section#content .form-fields .error
+	{
+		display: block;
+		color: #f34755;
+		font-size: 11px;
+		margin-top:5px;
+		font-weight: normal;
+	}
+	
+	/* Style Select Boxes */
+	span.customStyleSelectBox { -moz-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 0 4px -1px 
+
+rgba(0, 0, 0, 0.2);cursor: pointer; padding: 8px; background-color: #949494; border: 1px solid #d4d4d4; color: #717171; -moz-border-radius: 5px; -webkit-border-radius: 
+
+5px;border-radius: 5px 5px; line-height: 11px; width: 100% !important }
+	.size50 span.customStyleSelectBox { width: 49% !important; }
+	.customStyleSelectBoxInner { padding: 7px 0; background:url(../images/arrow.png) no-repeat center right; width: 100% !important; height: 24px; }
+	
+	input[type=submit]
+	{
+	    
+		cursor: pointer;
+		padding: 15px;
+		border: 1px solid #0945b9;
+		color: #000000;
+		font-weight: bold;
+		-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px 3px;
+		-moz-box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		-webkit-box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		margin-bottom: 20px;
+		
+		
+		background: #5e9af8; /* Old browsers */
+		background: -moz-linear-gradient(top, #5e9af8 0%, #2f6af2 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e9af8), color-stop(100%,#2f6af2)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #5e9af8 0%,#2f6af2 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9af8', endColorstr='#2f6af2',GradientType=0 ); /* IE6-9 */
+	}
+	
+	input[type=submit]:hover
+	{
+		background: #5e9af8; /* Old browsers */
+		background: -moz-linear-gradient(top, #5e9af8 0%, #2867ef 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e9af8), color-stop(100%,#2867ef)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #5e9af8 0%,#2867ef 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #5e9af8 0%,#2867ef 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #5e9af8 0%,#2867ef 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #5e9af8 0%,#2867ef 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9af8', endColorstr='#2867ef',GradientType=0 ); /* IE6-9 */
+	}
+	
+	input[type=submit]:active
+	{
+		background: #2867ef;
+	}
+
+
+
+input[type=radio], input[type=checkbox] {
+		display:none;
+	}
+
+input[type=radio] + label, input[type=checkbox] + label {
+		display:inline-block;
+		margin:-2px;
+        margin-top:10px;
+		padding: 4px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		line-height: 20px;
+		color: #ACACAC;
+		text-align: center;
+		font-weight:bold;
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: #ACACAC;
+		background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+		background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+		background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+		background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+		background-repeat: repeat-x;
+		border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		border-bottom-color: #b3b3b3;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+	}
+
+	 input[type=radio]:checked + label, input[type=checkbox]:checked + label{
+	
+    margin-top:10px;
+		cursor: pointer;
+		
+		border: 1px solid #0945b9;
+		color: white;
+		font-weight: bold;
+		-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px 3px;
+		-moz-box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		-webkit-box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		box-shadow: inset 0 3px 0 -2px rgba(255, 255, 255, 0.6);
+		
+		
+		background: #5e9af8; /* Old browsers */
+		background: -moz-linear-gradient(top, #5e9af8 0%, #2f6af2 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e9af8), color-stop(100%,#2f6af2)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #5e9af8 0%,#2f6af2 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #5e9af8 0%,#2f6af2 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9af8', endColorstr='#2f6af2',GradientType=0 ); /* IE6-9 */
+	}
+
+.cards {
+  overflow: hidden;
+}
+.cards li {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  background-image: url('https://www.fethr.com/webapp/images/card_logos.png');
+  background-position: 0 0;
+  float: left;
+  height: 32px;
+  margin-right: 8px;
+  text-indent: -9999px;
+  width: 51px;
+}
+.cards li:last-child {
+  margin-right: 10px;
+}
+.cards .visa_electron {
+  background-position: 204px 0;
+}
+.cards .mastercard {
+  background-position: 153px 0;
+}
+.cards .maestro {
+  background-position: 102px 0;
+}
+.cards .discover {
+  background-position: 51px 0;
+}
+.cards .visa.off {
+  background-position: 0 32px;
+}
+.cards .visa_electron.off {
+  background-position: 204px 32px;
+}
+.cards .mastercard.off {
+  background-position: 153px 32px;
+}
+.cards .maestro.off {
+  background-position: 102px 32px;
+}
+.cards .discover.off {
+  background-position: 51px 32px;
+}
+form input.valid {
+  background: url('http://paweldecowski.github.com/jQuery-CreditCardValidator/tick.png') 300px no-repeat;
+}
